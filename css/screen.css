@@ -1,0 +1,78 @@
+.screen {
+    width: 75.25rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    /*remove */
+    margin-top: 2.5rem;
+    background-image: url("/assets/images/screen_bg.png");
+}
+
+.screen-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 20.375rem;
+    height: 5.25rem;
+    border-color: #c3d1ff;
+    border-radius: 3rem;
+    
+}
+
+.screen-layout-btn {
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen-layout-btn img{
+    width: 3.313rem;
+    height: 3.313rem;
+}
+
+
+.screen-layout-content {}
+
+
+.screen-layout-content-head {
+    /* inter 600 */
+    font-family: "Inter", serif;
+    font-weight: 600;
+    width: 13.6rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.975rem;
+    color: #1c1f25;
+}
+
+.screen-layout-content-body {
+    width: 9.31rem;
+    height: 1.625rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-layout-content-time {
+    /* inter 400 */
+    font-family: "Inter", serif;
+    font-weight: 400;
+    width: 3.125rem;
+    height: 1.625rem;
+    color: #4b5162;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.screen-layout-content-a {
+    text-decoration: none;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    color: #387ff5;
+    font-size: 1rem;
+    line-height: 1.6rem;
+
+}

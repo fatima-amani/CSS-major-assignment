@@ -7,6 +7,7 @@ nav {
     margin-top: 3.43rem;
     margin: 4rem;
     padding-right: 2rem;
+    border: 2px solid black;    /*  remove */
 }
 
 .nav-brand {

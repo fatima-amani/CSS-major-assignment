@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.content-wrapper {
+    width: 53.75;
+    height: 19.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px solid black;    /*  remove */
+}
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 53.75rem;
+    height: 13.75rem;
+}
+.text-wrapper-aibox{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    width: 26.6rem;
+    height: 2.6rem;
+    border: 0.16rem solid #b6bccd;
+    border-radius: 0.16rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    color: #4b5162;
+}
+.text-wrapper-aibox img{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5rem;
+}
+.text-wrapper-head{
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 3rem
+    
+}
+.text-wrapper-body{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #4b5162;
+    margin-top: 1rem;
+}
+
+.button-group{
+    width: 25.9rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.button-group-btn{
+    height: 3rem;
+    border-radius: 0.75rem;
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#opportunities-btn{
+    width: 14.3rem;
+    background-color: #75b73e;   
+    border: none; 
+    color: #ffffff;
+    
+}
+#top-talent-btn{    
+    width: 10.8rem;
+    color: #4b5162;
+    border: 1px solid rgba(182,188,205,0.5);
+    
+}

@@ -5,6 +5,8 @@
 @import url(content-wrapper.css);
 @import url(screen.css);
 @import url(key-features.css);
+@import url(trial-banner.css);
+@import url(testimonials.css);
 
 main{
     display: flex;

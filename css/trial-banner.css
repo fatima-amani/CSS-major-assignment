@@ -1,0 +1,69 @@
+.trial-banner{
+    width: 90rem;
+    height: 32rem;
+}
+.trial-banner-container{
+    width: 75.25rem;
+    height: 22rem;
+    background-image: url('/assets/images/trial-banner.png');    
+}
+.trial-banner-container-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.trial-banner-header{
+    width: 41.438rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trial-banner-heading{
+    width: 41.438rem;
+    height: 7rem;
+    /* dm sans 700 */
+    font-size: 3rem;
+    line-height: 55.68px;
+    color: #ffffff;
+}
+.trial-banner-btn {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.trial-banner-btn button{
+    background-color: rgb(124,187,89);
+    width: 12.25rem;
+    height: 3.5rem;
+    /* dm sans 700 */
+    font-size: 16px;
+    line-height: 19.52px;
+    color: #ffffff;
+}
+.trial-banner-btn button img{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+.trial-banner-card-container{
+    width: 381px;
+    height: 304px;
+    border-radius: 16px;
+}
+.trial-banner-card{
+    width: 381px;
+    height: 88px;
+}
+.trial-banner-card-img{
+    width: 48px;
+    height: 72px;
+}
+.trial-banner-card-body{
+    /* inter 600 */
+    width: 270px;
+    height: 48px;
+    font-size: 1rem;
+    line-height: 24px;
+}

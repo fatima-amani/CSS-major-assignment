@@ -1,0 +1,116 @@
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us-container{
+    width: 1350px;
+    height: 629px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;    
+}
+.contact-us-header{
+    width: 536px;
+    height: 628.9px;
+    background-color: #82CC45;
+    padding-left: 101px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-header-title{
+    width: 250px;
+    height: 58px;
+    margin-top: 52px;
+    font-family: "Lato", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    color: #ffffff;
+}
+.contact-us-header-content{
+    height: 335px;
+    width: 18rem;
+    margin-top: 106px;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(255,255,255,0.8);
+}
+.contact-us-form{
+    height: 629px;
+    width: 1350px;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 0;
+    
+}
+.contact-us-form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 729px;
+    height: 61px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 61px;
+    width: 320px;
+}
+.form-input label{
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: left;
+    color: rgba(0, 0, 34, 0.35);
+}
+.form-input input{
+    border: none;
+    width: 320px;
+}
+.textarea_group{
+    width: 370px;
+    height: 112px;
+}
+.input{
+    width: 320px;
+    border: none;
+    background: none;
+    border-bottom: 0.5px solid #1F64FF;
+}
+#textarea{
+    border: none;
+    width: 200%;
+    border-bottom: 1px solid #1F64FF;
+}   
+
+.contact-us-btn{
+    display: flex; 
+    justify-content: flex-end;
+    
+}
+.contact-us-btn input{
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    margin-top: 4.65rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: rgba(117, 183, 62, 1);
+
+}

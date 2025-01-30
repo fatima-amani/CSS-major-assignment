@@ -9,6 +9,8 @@
 @import url(testimonials.css);
 @import url(partner.css);
 @import url(about.css);
+@import url(contact.css);
+@import url(footer.css);
 
 main{
     display: flex;

@@ -8,6 +8,7 @@
 @import url(trial-banner.css);
 @import url(testimonials.css);
 @import url(partner.css);
+@import url(about.css);
 
 main{
     display: flex;

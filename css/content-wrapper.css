@@ -8,8 +8,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    border: 2px solid black;    /*  remove */
+    justify-content: space-between;    
 }
 .text-wrapper {
     display: flex;

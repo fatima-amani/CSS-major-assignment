@@ -1,0 +1,72 @@
+
+
+.key-features{
+    width: 72.813rem;
+    height: 43.125rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.heading{
+    /* lato 600 */
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+.line{
+    width: 3.063rem;
+    height: 0;
+    border: 0.313rem solid #75B73E;
+}
+
+.feature-line-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.feature-line-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.feature-card{
+    width: 16.813rem;
+    height: 13.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.feature-card-img{
+    height: 3.75rem;
+    width: 3.75rem;
+}
+.feature-card-title{
+    /* lato 700 */
+    font-family: "Lato", serif;
+    font-weight: 700;
+    width: 11.25rem;
+    height: 1.813rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #000000;
+    width: 18.313rem;
+    height: 1.813rem;
+}
+.feature-card-body{
+    /* lato 400 */
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #000022;
+    line-height: 1.35rem;
+    text-align: center;
+    width: 17.563rem;
+    height: 4.75rem;
+}

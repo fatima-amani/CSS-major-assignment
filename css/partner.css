@@ -1,0 +1,43 @@
+.partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-container {
+    width: 75.25rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.partner-text {
+    text-align: center;
+    /* inter */
+    height: 1.625rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #4B5162;
+}
+
+.partner-logo-container {
+    height: 11rem;
+    padding: 1.25rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.partner-logo-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner-logo {
+    width: 11.6875rem;
+    height: 3rem;
+}

@@ -1,32 +1,99 @@
 .testimonials{
-
+    width: 100%;
+    height: 57.8125rem;
+    padding: 7.5rem 7.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 .testimonials-header{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50rem;
+    height: 7.0625rem;
+}
+.testimonials-heading{
+    width: 100%;
+    text-align: center;
+    height: 2.8125rem;
+    font-weight: 700;
+    font-size: 2.4375rem;
+    line-height: 2.8275rem;
+    color: #1c1f25;
 }
 .testimonials-category{
+    font-size: 1.375rem;
+    line-height: 2.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
+#testimonials-category-candidates{
+    font-weight: 500;
+    color: #75B73E;
+    text-decoration: underline;
+    margin-right: 2rem;
+}
+#testimonials-category-employers{
+    font-weight: 400;
+    color: #4B5162;
 }
 
 .testimonials-row{
-
+    width: 100%;
+    height: 32.75rem;
+    display: flex;
+    justify-content: space-around;
 }
 .testimonials-card{
-
+    width: 25rem;
+    height: 32.75rem;
+    border-radius: 1.25rem;
+    border: 1px solid #B6BCCD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2.5rem;
 }
 .testimonials-card-msg{
-    
+    width: 20rem;
+    height: 17rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.975rem;
+    text-align: center;
+    color: #1C1F25;
 }
 
 .testimonials-card-user{
-
+    height: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .testimonials-card-user-img{
-
+    height: 2rem;
+    width: 2rem;
 }
 .testimonials-card-user-name{
-
+    height: 1.625rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #343844;
 }
 .testimonials-card-user-role{
-
+    height: 1.625rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #4B5162;
 }

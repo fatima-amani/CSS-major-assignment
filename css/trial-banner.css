@@ -103,3 +103,99 @@
     line-height: 1.5rem;
     color: #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+    .trial-banner {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .trial-banner-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .trial-banner-container-child {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trial-banner-header {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        margin-bottom: 1.25rem;
+    }
+
+    .trial-banner-heading {
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .trial-banner-btn {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .trial-banner-btn button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+
+    .trial-banner-card-container {
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trial-banner-card {
+        width: 100%;
+        height: fit-content;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .trial-banner-card-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .trial-banner-card-img img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .trial-banner-card-body {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .trial-banner-heading {
+        font-size: 1.8rem;
+        line-height: 2.15rem;
+    }
+
+    .trial-banner-btn button {
+        width: 9rem;
+        height: 2.8rem;
+        font-size: 0.85rem;
+    }
+
+    .trial-banner-card {
+        padding: 0.8rem;
+    }
+
+    .trial-banner-card-body {
+        font-size: 0.85rem;
+    }
+}
+

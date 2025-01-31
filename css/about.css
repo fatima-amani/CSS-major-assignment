@@ -54,3 +54,39 @@
     width: 32.4925rem;
     height: 21.3125rem;
 }
+
+@media screen and (max-width: 600px) {
+    .about{
+        /* width: 100%; */
+        /* max-width: 20rem; */
+        height: auto;
+    }
+    .about-container{
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+    }
+    .about-content{
+        font-size: 0.5rem;
+        justify-content: flex-start;
+        line-height: 1rem;
+    }
+    .about-content-text{
+        font-size: 0.75rem;
+    }
+    .about-heading{
+        font-size: 3rem;
+    }
+    .about-line{
+        border: 0.2rem solid rgb(117, 183, 62);
+    }
+    .about-container-child{
+        margin: 0;
+    }
+    .about-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+}

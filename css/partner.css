@@ -41,3 +41,59 @@
     width: 11.6875rem;
     height: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+    .partner {
+        height: auto;
+        padding: 1.5rem;
+    }
+    
+    .partner-container {
+        width: 100%;
+    }
+    
+    .partner-text {
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .partner-logo-container {
+        height: auto;
+        width: 100%;
+    }
+    
+    .partner-logo-row {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .partner-logo {
+        width: 80%;
+        max-width: 11.6875rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partner {
+        padding: 1rem;
+    }
+    
+    .partner-text {
+        font-size: 0.875rem;
+        line-height: 1.4rem;
+        max-width: 18rem;
+    }
+    
+    .partner-logo-row {
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .partner-logo {
+        width: 90%;
+    }
+}

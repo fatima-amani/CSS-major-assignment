@@ -78,3 +78,64 @@
     line-height: 1.6rem;
 
 }
+
+@media screen and (max-width: 600px) {
+    .screen {
+        /* width: 90%;
+        height: 90%; */
+        transform: scale(0.5);
+    }
+    .screen-layout {
+        width: 16rem;
+        height: 4rem;
+        border-width: 0.8rem;
+    }
+    .screen-layout-btn {
+        width: 5rem;
+        height: 5rem;
+    }
+    .screen-layout-btn img {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    .screen-layout-content-head {
+        font-size: 0.9rem;
+    }
+    .screen-layout-content-body {
+        width: 9rem;
+    }
+    .screen-layout-content-time, 
+    .screen-layout-content-a {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .screen {
+        /* width: 100%; */
+        transform: scale(0.3);
+    }
+    .screen-layout {
+        width: 16rem;
+        height: 3.5rem;
+        border-width: 0.6rem;
+    }
+    .screen-layout-btn {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .screen-layout-btn img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .screen-layout-content-head {
+        font-size: 0.8rem;
+    }
+    .screen-layout-content-body {
+        width: 8rem;
+    }
+    .screen-layout-content-time, 
+    .screen-layout-content-a {
+        font-size: 0.8rem;
+    }
+}

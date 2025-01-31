@@ -10,7 +10,7 @@
 .trial-banner-container{
     width: 75.25rem;
     height: 25rem;
-    background-image: url('/assets/images/trial-banner.png');   
+    background-image: url('/images/trial-banner.png');   
     display: flex;
     justify-content: space-around;
     align-items: center; 

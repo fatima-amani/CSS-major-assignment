@@ -134,7 +134,7 @@
 @media screen and (max-width: 600px) {
     .contact-us {
         width: 100%;
-        padding: 2rem 1rem; /* Increased padding for better spacing */
+        padding: 2rem 1rem;
     }
 
     .contact-us-container {
@@ -143,23 +143,32 @@
         flex-direction: column;
         align-items: center;
         display: flex;
-        gap: 1.5rem; /* Adds spacing between elements */
+        gap: 1.5rem;
     }
 
     .contact-us-header {
         width: 100%;
         height: auto;
-        padding: 2rem 1rem; /* Adjust padding */
+        padding: 2rem 1rem;
         text-align: center;
     }
 
+    .contact-us-header-title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+
     .contact-us-header-content {
-        margin: 2rem 0 1.5rem 0; /* Balanced spacing */
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 1.5rem 0;
+        width: 100%;
     }
 
     .contact-us-form {
         width: 100%;
-        max-width: 30rem; /* Prevents form from stretching too much */
+        max-width: 30rem;
         height: auto;
         margin: 2rem auto;
         padding: 0 1rem;
@@ -176,7 +185,7 @@
         width: 100%;
         flex-direction: column;
         height: auto;
-        gap: 1.5rem; /* Reduced gap for better compactness */
+        gap: 1.5rem;
     }
 
     .form-input {
@@ -186,7 +195,7 @@
     .form-input input,
     #textarea {
         width: 100%;
-        padding: 0.75rem; /* Better spacing inside input fields */
+        padding: 0.75rem;
         font-size: 1rem;
     }
 
@@ -206,7 +215,8 @@
 
 @media screen and (max-width: 480px) {
     .contact-us-header-title {
-        font-size: 2rem; /* Adjusted for smaller screens */
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
 
     .contact-us-header-content {
@@ -216,11 +226,12 @@
 
     .form-input input,
     #textarea {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 
     .contact-us-btn input {
         max-width: 100%;
         padding: 0.8rem;
+        font-size: 0.875rem;
     }
 }

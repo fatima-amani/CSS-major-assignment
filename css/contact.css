@@ -193,6 +193,7 @@
 
     .form-input {
         width: 100%;
+        margin-bottom: 1rem;
     }
 
     .form-input input,
@@ -229,7 +230,7 @@
 
     .form-input input,
     #textarea {
-        font-size: 0.875rem;
+        font-size: 0.87rem;
     }
 
     .contact-us-btn input {

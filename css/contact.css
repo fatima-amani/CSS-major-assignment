@@ -66,6 +66,7 @@
     justify-content: space-between;
     height: 3.8125rem;
     width: 20rem;
+    
 }
 .form-input label{
     font-family: "Lato", serif;
@@ -78,6 +79,13 @@
 .form-input input{
     border: none;
     width: 20rem;
+    height: 2.8125rem;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    text-align: left;
+    color: rgb(0, 0, 34);
 }
 .textarea_group{
     width: 23.125rem;
@@ -92,7 +100,14 @@
 #textarea{
     border: none;
     width: 200%;
+    height: 4.8125rem;
     border-bottom: 0.0625rem solid rgb(31, 100, 255);
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    text-align: left;
+    color: rgb(0, 0, 34);
 }   
 
 .contact-us-btn{

@@ -32,6 +32,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 1rem;
 }
 .footer-ai-box-line{
     width: 66.89rem;
@@ -50,14 +51,24 @@ footer{
     height: 8.69rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.footer-card-title{
+.footer-card-title a{
     font-family: "DM Sans", serif;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.2rem;
     color: rgb(52, 56, 68);
+}
+
+.footer-card-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-card-item{
+    margin-top: 0.5rem;
+
 }
 .footer-card-item a{
     font-family: "DM Sans", serif;
@@ -65,10 +76,13 @@ footer{
     font-size: 1rem;
     line-height: 1.22rem;
     color: rgb(75, 81, 98);
+    display: flex;
+    align-items: center;
 }
 .footer-card-item img{
     width: 1.12rem;
     height: 1.12rem;
+    margin-right: 0.5rem;
 }
 
 .footer-ai-box-2{

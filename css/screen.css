@@ -37,7 +37,6 @@
 }
 
 
-.screen-layout-content {}
 
 
 .screen-layout-content-head {
@@ -78,7 +77,6 @@
     line-height: 1.6rem;
 
 }
-
 @media screen and (max-width: 600px) {
     .screen {
         /* width: 90%;

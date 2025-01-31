@@ -48,7 +48,6 @@ header {
     align-items: center;
     justify-content: space-between;
 
-
 }
 
 .nav-link-container {
@@ -75,4 +74,31 @@ header {
     border-radius: 0.6rem;
     border: 1px solid #75b73e;
     color: #75b73e;
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        margin-left: 9rem;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+        align-items: flex-start;
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+    .nav-link-container{
+        flex-direction: column;
+        padding-left: 0;
+        align-items: flex-start;
+        margin-top: 1rem;
+    }
+    .nav-link{
+        margin-right: 0;
+    }
+    .nav-btn{
+        margin-top: 1rem;
+    }
 }

@@ -58,6 +58,9 @@
     border: none;
     border-radius: 0.75rem;
 }
+.trial-banner-btn button:hover{
+    box-shadow: 0 4px 8px rgba(255,255,255, 0.1);
+}
 .trial-banner-btn button img{
     width: 1.5rem;
     height: 1.5rem;

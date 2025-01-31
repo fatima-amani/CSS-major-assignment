@@ -60,6 +60,9 @@
     justify-content: flex-end;
     padding: 2.5rem;
 }
+.testimonials-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .testimonials-card-msg{
     width: 20rem;
     height: 17rem;

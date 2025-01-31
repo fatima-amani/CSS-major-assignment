@@ -84,11 +84,22 @@
     border: none;
     color: #ffffff;
 }
+#opportunities-btn:hover {
+    color: #75b73e;
+    background-color: #ffffff;
+    border: 1px solid #75b73e;
+}
 
 #top-talent-btn {
     width: 40%;
     color: #4b5162;
+    background-color: #ffffff;
     border: 1px solid rgba(182,188,205,0.5);
+}
+#top-talent-btn:hover{
+    color: #75b73e;
+    background-color: #ffffff;
+    border: 1px solid #75b73e;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,45 +1,47 @@
 .contact-us{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .contact-us-container{
-    width: 1350px;
-    height: 629px;
+    width: 84.375rem;
+    height: 39.3125rem;
     display: flex;
     justify-content: space-between;
     align-items: end;    
 }
 .contact-us-header{
-    width: 536px;
-    height: 628.9px;
-    background-color: #82CC45;
-    padding-left: 101px;
+    width: 33.5rem;
+    height: 39.30625rem;
+    background-color: rgb(130, 204, 69);
+    padding-left: 6.3125rem;
     display: flex;
     flex-direction: column;
 }
 .contact-us-header-title{
-    width: 250px;
-    height: 58px;
-    margin-top: 52px;
+    width: 15.625rem;
+    height: 3.625rem;
+    margin-top: 3.25rem;
     font-family: "Lato", serif;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
-    line-height: 57.6px;
-    color: #ffffff;
+    line-height: 3.6rem;
+    color: rgb(255, 255, 255);
 }
 .contact-us-header-content{
-    height: 335px;
+    height: 20.9375rem;
     width: 18rem;
-    margin-top: 106px;
+    margin-top: 6.625rem;
     font-family: "Lato", serif;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
-    color: rgba(255,255,255,0.8);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 .contact-us-form{
-    height: 629px;
-    width: 1350px;
+    height: 39.3125rem;
+    width: 84.375rem;
     display: flex;
     margin-left: 5rem;
     margin-right: 0;
@@ -55,42 +57,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 729px;
-    height: 61px;
+    width: 45.5625rem;
+    height: 3.8125rem;
 }
 .form-input{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 61px;
-    width: 320px;
+    height: 3.8125rem;
+    width: 20rem;
 }
 .form-input label{
     font-family: "Lato", serif;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19.2px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-align: left;
     color: rgba(0, 0, 34, 0.35);
 }
 .form-input input{
     border: none;
-    width: 320px;
+    width: 20rem;
 }
 .textarea_group{
-    width: 370px;
-    height: 112px;
+    width: 23.125rem;
+    height: 7rem;
 }
 .input{
-    width: 320px;
+    width: 20rem;
     border: none;
     background: none;
-    border-bottom: 0.5px solid #1F64FF;
+    border-bottom: 0.03125rem solid rgb(31, 100, 255);
 }
 #textarea{
     border: none;
     width: 200%;
-    border-bottom: 1px solid #1F64FF;
+    border-bottom: 0.0625rem solid rgb(31, 100, 255);
 }   
 
 .contact-us-btn{
@@ -103,14 +105,13 @@
     color: rgba(255, 255, 255, 1);
     font-family: "Lato", serif;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16.8px;
-    width: 200px;
-    height: 52px;
-    border-radius: 10px;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    width: 12.5rem;
+    height: 3.25rem;
+    border-radius: 0.625rem;
     margin-top: 4.65rem;
     margin-left: 1rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: rgb(117, 183, 62);
-
 }
